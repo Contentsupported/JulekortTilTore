@@ -1,0 +1,38 @@
+body {
+    background-image: url('./images/Christmas\ Landscape.jpg');
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-color: black;
+    
+}
+
+h1{
+    
+    position: absolute;
+    bottom: 260pt;
+    left: 400pt;
+    size: 1000pt;
+    color: red;
+    font-size: xxx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+}
+
+h2{
+    position: absolute;
+    bottom: 220pt;
+    left: 180pt;
+    color: green;
+    font: 200;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+}
