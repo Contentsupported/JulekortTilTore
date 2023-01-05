@@ -4,11 +4,7 @@ let xspot = document.querySelector('.xspot')
 
 
 
-function ChistMusic (){
-    let audio = new Audio("./audio/Background music.mp3");
-    audio.play();
-    music.remove();
-}
+
 function found (){
     let audio = new Audio("./audio/Reindeer.mp3");
     audio.play();
