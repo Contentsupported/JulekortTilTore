@@ -22,7 +22,7 @@ h1{
     font-weight: bolder;
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 1px;
-    z-index: 2;
+    z-index: 1;
 }
 
 h2{
@@ -36,9 +36,9 @@ h2{
     font-weight: bold;
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 1px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .Letter {
-    z-index: 1;
+    z-index: 2;
 }
