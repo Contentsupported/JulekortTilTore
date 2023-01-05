@@ -1,20 +1,22 @@
 <html>
     <head>
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
-       
         <title>Julekort til tore</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="script.js">
-    <script>
-        var deersound 
-    </script>
     </head>
     <body>
-    
-    
-        <div class="images">
-
-            <div style = "position:absolute; left:460px; top:62px;" height="50" class="music">
+        <div class="images">  
+            <div style = "position:absolute; left:440px; top:0px;" class="letter">
+                <img src="./images/LetterGodJul.png" height="550">
+                <div style = "position:absolute; left:260px; top:60px;" class="xspot">
+                    <img src="./images/X.png" height="50" onclick="paper()">
+                 </div>    
+             </div>       
+            <div style = "position:absolute; left:480px; top:62px;" height="50" class="music">
+                <audio controls>
+                    <source src="./audio/Background music.mp3" type="audio/mpeg">
+                </audio>
             </div>
             <div style = "position:absolute; left:560px; top:382px;" class="Deer1">
                 <img src="./images/Reindeer.png" height="30" onclick="found()"> 
@@ -42,7 +44,8 @@
             </div>
             <div style = "position:absolute; left:716px; top:169px;" ,class="Gift">
                 <img src="./images/Giftscutout.png" height="400">
-            </div> 
+            </div>
+
             <div class="Godjul">
                 <h1>God jul!</h1>
             </div>
@@ -52,11 +55,5 @@
             
         </div>
         <script src="script.js"></script>
-        
-        
-        <body>
-            
-        </body>
     </body>
-
 </html>

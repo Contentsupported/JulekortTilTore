@@ -1,27 +1,32 @@
 let images = document.querySelector('.images');
-let play = document.getElementsByClassName('.Deer6');
-let music = document.getElementsByClassName('.music');
+let letter = document.querySelector('.letter')
+let xspot = document.querySelector('.xspot')
+
+
 
 function ChistMusic (){
-    let audio = new Audio("./audio/Background music.mp3")
-    audio.play()
+    let audio = new Audio("./audio/Background music.mp3");
+    audio.play();
     music.remove();
 }
 function found (){
-    let audio = new Audio("./audio/Reindeer.mp3")
-    audio.play()
+    let audio = new Audio("./audio/Reindeer.mp3");
+    audio.play();
 }
 function show (){
-    let audio = new Audio("./audio/Jumpscare.mp3")
-    audio.play()
-    document.querySelector('body').style.backgroundImage = "url('./images/Jumpscare.gif')"
+    let audio = new Audio("./audio/Jumpscare.mp3");
+    audio.play();
+    document.querySelector('body').style.backgroundImage = "url('./images/Jumpscare.gif')";
     images.remove();
 }
-function hide (){
-    
-    document.getElementById('scare')
-    document.getElementById('scare')
+function paper (){
+    let audio = new Audio("./audio/Paper.mp3");
+    audio.play();
+    xspot.remove();
+    letter.remove();
 }
+
+
 
 let scar = document.querySelector('.scare');
 
